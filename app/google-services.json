@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "188396034750",
+    "firebase_url": "https://denguenotific-c3154.firebaseio.com",
+    "project_id": "denguenotific-c3154",
+    "storage_bucket": "denguenotific-c3154.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188396034750:android:07dbadfc0f2873f6a3dcef",
+        "android_client_info": {
+          "package_name": "com.marcos.dengue_notific"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188396034750-5imgcpu4cfo8t1gt45jj46b2mrdfergf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpBV3z0kJZCqk9k6b9WqG0PePpWYZEnYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188396034750-5imgcpu4cfo8t1gt45jj46b2mrdfergf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
