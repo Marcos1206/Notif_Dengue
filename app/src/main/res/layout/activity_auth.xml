@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="62dp" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="27dp" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="41dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/signUpbutton"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorSecundary"
+                android:text="REGISTRAR" />
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="61dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/loginbutton"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorTerciario"
+                android:text="Acceder"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
